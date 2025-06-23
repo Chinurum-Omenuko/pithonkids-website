@@ -42,9 +42,6 @@ const Footer = () => {
           </div> */}
 
           <div className="col-span-2 sm:col-span-1 lg:col-span-1">
-            <h3 className="text-white font-semibold mb-4">
-              Get weekly updates
-            </h3>
             <p className="text-sm mb-4">
               Be invested and stay ahead on our latest developments.
             </p>
