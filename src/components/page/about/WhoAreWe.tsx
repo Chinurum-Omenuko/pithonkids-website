@@ -24,7 +24,7 @@ const AboutSection = () => {
         </div>
         <div>
           <Image
-            src="/images/sacred/team.webp"
+            src="/images/gallery/img-1.webp"
             alt="Team photo"
             width={600}
             height={400}

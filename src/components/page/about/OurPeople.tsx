@@ -21,7 +21,7 @@ export default function OurPeople() {
               alt="People chatting on couch"
               className="rounded-xl w-full object-cover"
               width={500}
-              height={300}
+              height={100}
             />
           </div>
         </div>
