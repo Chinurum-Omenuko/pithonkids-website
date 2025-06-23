@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Support</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/contacts">Contacts</a></li>
+              <li><a href="/contact">Contacts</a></li>
               <li><a href="/quick-call">Quick Call</a></li>
               <li><a href="/messaging">Messaging</a></li>
             </ul>
