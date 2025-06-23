@@ -60,7 +60,7 @@ const Header = () => {
               About Us
             </Link>
           </li>
-          <li><Link href="/news" className="block">News</Link></li>
+          <li><Link href="/news" className="block">Gallery</Link></li>
           <li><Link href="/contact" className="block">Contact Us</Link></li>
 
         </ul>
