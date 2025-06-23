@@ -28,7 +28,7 @@ const initialTestimonials = [
   },
 ];
 
-const StarRating = ({ rating }) => (
+const StarRating = ({ rating }: { rating: number }) => (
   <div className="flex space-x-1 text-yellow-400 mt-1">
     {Array.from({ length: 5 }).map((_, i) => (
       <Star
@@ -51,14 +51,29 @@ const ReviewSection = () => {
   });
   const [underConstruction, setUnderConstruction] = useState(true);
 
-  const handleSubmit = (e) => {
+  interface Testimonial {
+    name: string;
+    date: string;
+    rating: number;
+    img: string;
+    review: string;
+  }
+
+  interface FormData {
+    name: string;
+    rating: number;
+    review: string;
+  }
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const newReview = {
+    const newReview: Testimonial = {
       ...formData,
+      img: "https://randomuser.me/api/portraits/lego/1.jpg", // Default avatar
       date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
     };
     setTestimonials([newReview, ...testimonials]);
-    setFormData({ name: '', img: '', rating: 5, review: '' });
+    setFormData({ name: '', rating: 5, review: '' });
     setShowForm(false);
   };
 

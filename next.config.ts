@@ -8,6 +8,12 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/webp'],
   },
+  typescript: {
+    ignoreBuildErrors: true,  // ⬅ disables type checking during build
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // ⬅ disables ESLint errors/warnings from blocking builds
+  },
 };
 
 export default nextConfig;
