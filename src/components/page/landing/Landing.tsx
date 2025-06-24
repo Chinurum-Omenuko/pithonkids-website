@@ -43,7 +43,7 @@ const Landing = () => {
   return (
     <section className="relative p-0 h-screen w-screen overflow-hidden">
       {/* Full-screen Carousel Background */}
-      <div className="hidden md:block w-full h-full">
+      <div className="w-full h-full">
         <Carousel />
       </div>
 
