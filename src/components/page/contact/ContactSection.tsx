@@ -82,9 +82,8 @@ export default function ContactForm() {
             <div className="flex items-center gap-4">
               <Phone className="w-5 h-5 text-gray-500" />
               <div className="phone flex flex-col">
-                <p>+1 (647) 409-9936</p>
-                <p>+1 (613) 291-4770</p>
-
+                <p> <a href="tel:6474099936">+1 (647) 409-9936</a></p>
+                <p> <a href="tel:6132914770">+1 (613) 291-4770</a></p>
               </div>
             </div>
             <div className="flex items-center gap-4">
