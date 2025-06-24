@@ -1,5 +1,5 @@
-import BlogSection from "@/components/page/news/BlogSection";
-import Gallery from "@/components/page/news/Gallery";
+import BlogSection from "@/components/page/gallery/BlogSection";
+import Gallery from "@/components/page/gallery/Gallery";
 
 export default function whatsnew() {
     return(
