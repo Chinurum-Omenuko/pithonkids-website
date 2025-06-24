@@ -15,10 +15,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "PithonKids",
-  description: "Come learn with us",
-};
+export const metadata = {
+  title: 'Pithonkids - Learn Coding, Maths & Web Development',
+  description: 'Join our Python programming and website development classes. Focused sessions tailored to your learning pace, guided by expert tutors dedicated to your success.'
+}
+
 
 export default function RootLayout({
   children,

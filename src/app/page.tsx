@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>home</title>
-        <meta name="description" content="This is an awesome page." />
-        <link rel="icon" href="/favicon.png" />
+        <title>Pithonkids - Learn Coding, Maths & Web Development</title>
+        <meta name="description" content="Join our Python programming and website development classes. Focused sessions tailored to your learning pace, guided by expert tutors dedicated to your success." />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
       <Features />
