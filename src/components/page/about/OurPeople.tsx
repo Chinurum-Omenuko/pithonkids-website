@@ -32,7 +32,7 @@ export default function OurPeople() {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Joy Ugo</h2>
             
               <p className="text-gray-600 mb-4">
-                With a background in Psychology and Biology, JU brings a unique blend of child development expertise and real-world data science experience. A seasoned healthcare data specialist, she’s trained adults across major hospital networks in Canada.
+                With a background in Psychology and Biology, Joy Ugo brings a unique blend of child development expertise and real-world data science experience. A seasoned healthcare data specialist, she’s trained adults across major hospital networks in Canada.
               </p>
               <p className="text-gray-600 mb-4">
                 She started out thinking math wasn’t for her—but her career proved otherwise. Now she’s committed to showing kids the beauty and purpose of math in every industry, and making sure no child grows up thinking they’re “just not a math person.”
