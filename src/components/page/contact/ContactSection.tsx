@@ -43,7 +43,7 @@ export default function ContactForm() {
   const handleSubmitForm = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const payload = getFormData(e)
-    console.log(payload)
+    
 
     // send to api
     try{
