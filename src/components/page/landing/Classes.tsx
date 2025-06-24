@@ -9,11 +9,10 @@ const Classes = () => {
       Check out our Classes!
       </h2>
       <p className="text-center text-gray-600 max-w-xl mx-auto mb-10">
-        Our patented padded snack sleeve construction protects your favorite treats from getting
-        smooshed during all-day adventures, long shifts at work, and tough travel schedules.
+        Small group & 1-on-1 options available. Online & in-person sessions. Proven strategies to boost confidence and grades
       </p>
 
-      <div className="grid grid-cols-2 gap-8 items-center justify-center">
+      <div className="grid grid-cols-2 gap-8 items-top justify-center">
         {/* Math class */}
         <div>
           <Image src="/images/math.png" alt="Math" width={20} height={10} />
