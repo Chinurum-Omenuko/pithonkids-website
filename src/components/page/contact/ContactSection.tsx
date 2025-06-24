@@ -87,10 +87,14 @@ export default function ContactForm() {
               </div>
               
             </div>
+            
             <div className="flex items-center gap-4">
               <Mail className="w-5 h-5 text-gray-500" />
-              <p>pithonkids@gmail.com</p>
+              <p>
+                <a href="mailto:pithonkids@gmail.com" className="underline">pithonkids@gmail.com</a>
+              </p>
             </div>
+            
           </div>
         </div>
 
