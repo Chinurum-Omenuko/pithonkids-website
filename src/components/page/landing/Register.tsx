@@ -97,7 +97,7 @@ const Register = () => {
   return (
     <>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
-      <section className="px-4 py-12 sm:px-6 lg:px-8 bg-white" id="scroll">
+      <section className="px-4 py-12 sm:px-6 lg:px-8 bg-white" id='register'>
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Shoot us a message to register!</h2>
           <p className="mt-2 text-base text-gray-500">

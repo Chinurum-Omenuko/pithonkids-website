@@ -14,9 +14,11 @@ const ScheduleComponent = () => {
           Book Your Child’s<br />Free Assessment
         </h3>
 
-        <button className="bg-[#e8e007] text-white font-bold text-lg px-6 py-3 rounded-full shadow-md mb-4 hover:bg-[#007acc] transition">
-          Schedule Today!
-        </button>
+        <a href="#register">
+          <button className="bg-[#e8e007] text-white font-bold text-lg px-6 py-3 rounded-full shadow-md mb-4 hover:bg-[#007acc] transition">
+            Schedule Today!
+          </button>
+        </a>
 
         <p className="text-gray-700 mb-4">
           or call <span className="font-bold underline underline-offset-2">647.409.9936</span>
