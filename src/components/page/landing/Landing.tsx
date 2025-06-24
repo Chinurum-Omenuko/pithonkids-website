@@ -21,7 +21,7 @@ const ScheduleComponent = () => {
         </a>
 
         <p className="text-gray-700 mb-4">
-          or call <span className="font-bold underline underline-offset-2">647.409.9936</span>
+          or call <a href="tel:6474099936" className="font-bold underline underline-offset-2"> +1 (647) 409 9936 </a>
         </p>
 
         <div className="text-center text-gray-700 space-y-2 text-sm">
