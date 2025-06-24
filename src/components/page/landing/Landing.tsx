@@ -2,9 +2,11 @@ import React from 'react';
 import MyCarousel from './Carousel';
 import Carousel from './Carousel';
 
+
+
 const ScheduleComponent = () => {
   return (
-      <div className="absolute md:w-1/2 bg-[#ffffff] text-center p-6 rounded-lg max-w-md w-full">
+      <div className="absolute md:w-1/2 bg-[#ffffff] text-center p-6 rounded-lg max-w-md w-3/4 m-8">
         <p className="text-gray-700 font-semibold uppercase text-sm">
           Pithon Kids
         </p>
@@ -26,18 +28,19 @@ const ScheduleComponent = () => {
 
         <div className="text-center text-gray-700 space-y-2 text-sm">
           <p className="flex items-center gap-2">
-            
+
           </p>
           <p className="flex items-center gap-2">
-            
+
           </p>
           <p>
-            
+
           </p>
         </div>
       </div>
   )
 }
+
 
 const Landing = () => {
   return (
