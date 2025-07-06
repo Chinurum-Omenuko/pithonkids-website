@@ -27,10 +27,10 @@ const Header = () => {
   return (
     <header className="w-full">
       {/* Language Switcher */}
-      <div className="flex justify-end text-sm p-3 pr-4 sm:pr-6 bg-[#f7faf9]">
+      {/* <div className="flex justify-end text-sm p-3 pr-4 sm:pr-6 bg-[#f7faf9]">
         <span className="text-gray-600">English | </span>
         <a href="#" className="text-blue-600 ml-1">Français</a>
-      </div>
+      </div> */}
 
       {/* Centre Title */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-left py-4 px-4 sm:px-6 bg-[#f7faf9]">
