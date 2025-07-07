@@ -13,7 +13,7 @@ const ScheduleComponent = () => {
         <h2 className="text-blue-600 font-bold text-xl mb-4">The STEM classes for kids!</h2>
 
         <h3 className="text-blue-600 font-extrabold text-2xl leading-snug mb-6">
-          Book Your Child’s<br />Free Assessment
+          Book Your Child’s<br />Free Class
         </h3>
 
         <a href="#register">

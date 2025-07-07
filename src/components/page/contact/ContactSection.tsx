@@ -75,7 +75,7 @@ export default function ContactForm() {
           <div>
             <h2 className="text-3xl font-bold text-gray-900">Get in touch</h2>
             <p className="mt-4 text-gray-600 max-w-md">
-              Shoot us a quick message and we will get back to you within 24 hours.
+              Sign up with us and get a free class with pithonkids.
             </p>
           </div>
           <div className="space-y-6 text-gray-700 text-sm">
@@ -162,6 +162,7 @@ export default function ContactForm() {
               name="message"
               rows={5}
               required
+              placeholder="Share your message with us about what you are looking for, and let us know which free class you would like for your child."
               className="text-black mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
             />
           </div>
