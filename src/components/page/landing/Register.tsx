@@ -70,12 +70,13 @@ const Register = () => {
   const handleSubmitForm = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const payload = getFormData(e)
-    console.log(payload)
+    
+  
 
     // send to api
     try{
       const response = await fetch(
-        'https://mailjet-api-280673911842.us-central1.run.app/api/send-mail',
+        'https://pkbackendapi-gfcagfephthgakfm.canadacentral-01.azurewebsites.net/api/Mail',
       {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
@@ -113,7 +114,7 @@ const Register = () => {
               <input
                 type="text"
                 id="first-name"
-                name="firstName"
+                name="FirstName"
                 className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 text-black"
               />
             </div>
@@ -124,7 +125,7 @@ const Register = () => {
               <input
                 type="text"
                 id="last-name"
-                name="lastName"
+                name="LastName"
                 className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 text-black"
               />
             </div>
@@ -136,7 +137,7 @@ const Register = () => {
             <input
               type="email"
               id="email"
-              name="email"
+              name="Email"
               className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 p-2 text-black"
             />
           </div>
@@ -154,7 +155,7 @@ const Register = () => {
               <input
                 type="tel"
                 id="phone"
-                name="phoneNumber"
+                name="Phone"
                 className="block w-3/4 rounded-r-md border border-gray-300 p-2 focus:ring-indigo-500 focus:border-indigo-500 text-black"
                 placeholder="123-456-7890"
               />
