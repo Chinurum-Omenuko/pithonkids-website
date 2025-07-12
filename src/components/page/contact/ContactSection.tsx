@@ -48,7 +48,7 @@ export default function ContactForm() {
     // send to api
     try{
       const response = await fetch(
-        'https://mailjet-api-280673911842.us-central1.run.app/api/send-mail',
+        'https://pkbackendapi-gfcagfephthgakfm.canadacentral-01.azurewebsites.net/api/Mail',
       {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
@@ -108,7 +108,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 id="firstName"
-                name="firstName"
+                name="FirstName"
                 required
                 className="text-black mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
@@ -120,7 +120,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 id="lastName"
-                name="lastName"
+                name="LastName"
                 required
                 className="text-black mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
@@ -134,7 +134,7 @@ export default function ContactForm() {
             <input
               type="email"
               id="email"
-              name="email"
+              name="Email"
               required
               className="text-black mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -147,7 +147,7 @@ export default function ContactForm() {
             <input
               type="tel"
               id="phone"
-              name="phone"
+              name="Phone"
               required
               className="text-black mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -159,7 +159,7 @@ export default function ContactForm() {
             </label>
             <textarea
               id="message"
-              name="message"
+              name="Message"
               rows={5}
               required
               placeholder="Share your message with us about what you are looking for, and let us know which free class you would like for your child."
